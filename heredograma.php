@@ -51234,7 +51234,6 @@ switch ($legenda) {
 }
 
 header("Content-type:image/png");
-//sleep(1);
 imagepng($canvas);
-//imagepng($canvas,"./heredograma.png");
+imagepng($canvas,"./heredograma.png");
 imagedestroy($canvas);

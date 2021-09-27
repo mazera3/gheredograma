@@ -4442,8 +4442,30 @@
                 </div>
             </div>
             <input type="submit" class="btn btn-primary mt-2" value="Gerar Heredograma">
+            <button type="button" class="btn btn-outline-primary mt-2" data-toggle="modal" data-target="#exampleModal">
+            Vizualizar
+        </button>
         </form>
-        <!-- <h2 class="text-center text-primary">Heredograma</h2> -->
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Heredograma</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                    <a href='heredograma.png'><img src="./heredograma.png" width="700px"/></a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- <div class="text-center"> -->
         <!-- <a href='heredograma.png'><img src="heredograma.php" /></a> -->
@@ -4451,10 +4473,12 @@
         <!-- <img src="heredograma.php" /> -->
         <!-- </div> -->
     </div>
+    <p class="text-center text-primary">Heredograma gerado por <b>Gerador de Heredograma</b></p>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src=".js/jquery-3.3.1.slim.min.js"></script>
-    <script src=".js/popper.min.js"></script>
+    
+    <script src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
 </body>
 
