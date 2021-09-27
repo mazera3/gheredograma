@@ -51135,10 +51135,57 @@ function g4A($g4A, $i, $canvas, $f4a, $g4x1, $x, $d, $h, $gy4, $gx4a, $cor)
     }
 }
 //
-$g4x1 = $g4x1 - 10;
+switch ($f4A) {
+    case 1:
+        $g4x1 = $g4x1 - 10;
+        break;
+    case 2:
+        $g4x1 = $g4x1 + 10;
+        break;
+    case 3:
+        $g4x1 = $g4x1 - 10;
+        break;
+    case 4:
+        $g4x1 = $g4x1 - 35;
+        break;
+    case 5:
+        $g4x1 = $g4x1 - 60;
+        break;
+    case 6:
+        $g4x1 = $g4x1 - 80;
+        break;
+    case 7:
+        $g4x1 = $g4x1 - 110;
+        break;
+    case 8:
+        $g4x1 = $g4x1 - 130;
+        break;
+    case 9:
+        $g4x1 = $g4x1 - 160;
+        break;
+    case 10:
+        $g4x1 = $g4x1 - 190;
+        break;
+    case 11:
+        $g4x1 = $g4x1 - 210;
+        break;
+    case 12:
+        $g4x1 = $g4x1 - 240;
+        break;
+    case 13:
+        $g4x1 = $g4x1 - 260;
+        break;
+    case 14:
+        $g4x1 = $g4x1 - 280;
+        break;
+    case 15:
+        $g4x1 = $g4x1 - 310;
+        break;
+    case 16:
+        $g4x1 = $g4x1 - 335;
+        break;
+}
 $x = $r3A;
-
-//
 
 if ($f4A > 0) {
     g4A(16, 0, $canvas, $f4A, $g4x1, $x, $d, $h, $gy4, $gx4a, $cor); // linha horizontal
